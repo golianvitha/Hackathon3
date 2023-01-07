@@ -17,6 +17,15 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
 import { InfluencersComponent } from './influencers/influencers.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MatTabsModule } from '@angular/material/tabs';
+import { ContestsComponent } from './contests/contests.component';
+import { MatCardModule } from '@angular/material/card';
+import { StockCategoriesComponent } from './stock-categories/stock-categories.component';
+import { MyGamesComponent } from './my-games/my-games.component'
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +33,11 @@ import {MatExpansionModule} from '@angular/material/expansion';
     DialogComponent,
     ThanksComponent,
     DragDropComponent,
-    InfluencersComponent
+    InfluencersComponent,
+    DashboardComponent,
+    ContestsComponent,
+    StockCategoriesComponent,
+    MyGamesComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +50,9 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatIconModule,
     DragDropModule,
     MatGridListModule,
+    MatExpansionModule,
+    MatTabsModule,
+    MatCardModule,
     MatExpansionModule
   ],
   providers: [],

@@ -1,0 +1,28 @@
+h2{
+    text-align: center;
+}
+.card1{
+    width: 92%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(246, 183, 183) , rgb(244, 244, 188));
+      
+}
+.card2{
+    width: 92%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgb(165, 165, 235) , rgb(251, 251, 205));
+}
+.card3{
+    width: 92%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right , rgb(248, 199, 108), rgb(163, 246, 244));
+}
+.card4{
+    width: 92%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(253, 192, 249) , rgb(244, 244, 178));
+}
+.button3-1{
+    margin-right: 10%;
+    margin-left: 30%;
+}

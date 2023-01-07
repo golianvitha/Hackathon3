@@ -1,0 +1,9 @@
+<h1>Fantasy Sports</h1>
+<div style="text-align: center;">
+    <nav class="home-tab" mat-tab-nav-bar style="max-width: 83%;width: auto;overflow: scroll; display: inline-flex;">
+        <a mat-tab-link *ngFor="let link of links; index as i"
+        [href]="link"
+        (click)="activeLink = link"
+        [active]="activeLink == link"> {{titles[i]}} </a>
+    </nav>
+</div>
