@@ -1,4 +1,8 @@
-h2{
+.header{
+    border-radius: 10px;
+    background-color: rgb(255, 224, 196);
+    padding: 10px;
+    margin-bottom: 30px;
     text-align: center;
 }
 .card1{
@@ -10,19 +14,39 @@ h2{
 .card2{
     width: 92%;
     border-radius: 10px;
-    background-image: linear-gradient(to right,rgb(165, 165, 235) , rgb(251, 251, 205));
+    background-image: linear-gradient(to right,rgb(246, 183, 183) , rgb(244, 244, 188));
 }
 .card3{
     width: 92%;
     border-radius: 10px;
-    background-image: linear-gradient(to right , rgb(248, 199, 108), rgb(163, 246, 244));
+    background-image: linear-gradient(to right ,rgb(246, 183, 183) , rgb(244, 244, 188));
 }
 .card4{
     width: 92%;
     border-radius: 10px;
-    background-image: linear-gradient(to right, rgb(253, 192, 249) , rgb(244, 244, 178));
+    background-image: linear-gradient(to right,rgb(246, 183, 183) , rgb(244, 244, 188));
 }
-.button3-1{
+.button3-1,.button1-1,.button2-1,.button4-1{
     margin-right: 10%;
     margin-left: 30%;
+    background-color: #6378e4;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button1-2,.button2-2,.button3-2,.button4-2{
+    background-color: #6378e4;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button3-1:hover{
+    color: white;
+    background-color: rgb(39, 11, 11);
 }

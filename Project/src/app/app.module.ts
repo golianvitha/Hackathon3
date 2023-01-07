@@ -22,7 +22,11 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { ContestsComponent } from './contests/contests.component';
 import { MatCardModule } from '@angular/material/card';
 import { StockCategoriesComponent } from './stock-categories/stock-categories.component';
-import { MyGamesComponent } from './my-games/my-games.component'
+import { MyGamesComponent } from './my-games/my-games.component';
+import { LeaderboardComponent } from './leaderboard/leaderboard.component'
+import { MatTableModule } from '@angular/material/table'
+import { MatRippleModule } from '@angular/material/core';
+import { StockStatsComponent } from './stock-stats/stock-stats.component'
 
 
 
@@ -37,7 +41,9 @@ import { MyGamesComponent } from './my-games/my-games.component'
     DashboardComponent,
     ContestsComponent,
     StockCategoriesComponent,
-    MyGamesComponent
+    MyGamesComponent,
+    LeaderboardComponent,
+    StockStatsComponent
   ],
   imports: [
     BrowserModule,
@@ -53,7 +59,9 @@ import { MyGamesComponent } from './my-games/my-games.component'
     MatExpansionModule,
     MatTabsModule,
     MatCardModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatTableModule,
+    MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
