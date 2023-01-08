@@ -26,7 +26,8 @@ import { MyGamesComponent } from './my-games/my-games.component';
 import { LeaderboardComponent } from './leaderboard/leaderboard.component'
 import { MatTableModule } from '@angular/material/table'
 import { MatRippleModule } from '@angular/material/core';
-import { StockStatsComponent } from './stock-stats/stock-stats.component'
+import { StockStatsComponent } from './stock-stats/stock-stats.component';
+import { StockSelectNewComponent } from './stock-select-new/stock-select-new.component'
 
 
 
@@ -43,7 +44,8 @@ import { StockStatsComponent } from './stock-stats/stock-stats.component'
     StockCategoriesComponent,
     MyGamesComponent,
     LeaderboardComponent,
-    StockStatsComponent
+    StockStatsComponent,
+    StockSelectNewComponent
   ],
   imports: [
     BrowserModule,
